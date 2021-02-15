@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    height: 69px;
+    width: 100%;
+    background-image: url("mesh.png");
+    display: flex;
+    
+}
+.head img{
+    height: 69px;
+    width: 9%;
+}
+
+.title{
+    margin: 20px 186px;
+    color: white;
+    font-size: 30px;
+}
+.head input{
+    height: 20px;
+    width: 20%;
+    margin: 23px 321px;
+}
+.nav{
+    height: 28px;
+    width: 100%;
+    
+    background-color: turquoise;
+    
+    
+}
+li a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    padding: 0px 7px;
+    
+    border-radius: 10px;
+}
+
+li{
+    float: left;
+    margin-top: 4px;
+    margin-bottom: 1px;
+    margin-left: 130px;
+    margin-right: 10px;
+    list-style: none;
+    }
+    .nav li a:hover{
+        color: white;
+        background-color: black;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    header{
+        border: 2px solid red;
+        margin: auto;
+        width: 1200px;
+    }
+    img{
+        margin: auto;
+        width: 34px;
+    display: block;
+
+    }
+    h3{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0px;
+    }
+    .box{
+        border: 1px solid black;
+        background-color: chartreuse;
+        margin: 4px;
+        padding: 20px;
+        width: 30%;
+        box-sizing: border-box;
+        display: inline-block;
+
+        
+    }
+    .container{
+        margin: auto;
+        width: 1200px;
+    }
+    .con1{
+    border: 2px solid black;
+    height: 300px;
+
+    }
+    .box1{
+        display: inline-block;
+        border: 1px solid red;
+        width: 20%;
+        height: 150px;
+        margin: 3px;
+    
+        background-color: seagreen;
+        z-index: -1;
+        transition: width 2s height 2s;
+
+    }
+    .box1:hover{
+        width: 30%;
+        height: 200px;
+    }
+   
